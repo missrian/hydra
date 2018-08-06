@@ -5,9 +5,10 @@ shell_dir=$(cd "$(dirname "$0")"; pwd)
 
 cd ${shell_dir}
 
-read -p "请输入扫描ip段，如果172.20.15.0/24或者172.20.0.0/16:" ip
+read -p "请输入扫描ip端，如果172.20.15.0/24或者172.20.0.0/16: "  ip
 expr $ip + 1 &>/dev/null
 
+echo -e "\033[0;36m 扫描ip段为：$ip \033[0m"
 
 ##ip 段
 #ip=172.20.15.0/24
