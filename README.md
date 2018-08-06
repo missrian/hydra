@@ -10,6 +10,7 @@ yum install -y hydra nmap
 mv hydra-master/ 2/
 mv 2/ /root/
 
+
 ./nmap.sh
 
 
