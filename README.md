@@ -13,3 +13,4 @@ yum install -y hydra nmap
 查看扫描出来的弱密码
 cat pentest.txt
 
+
