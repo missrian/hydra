@@ -7,6 +7,10 @@ yum install openssl-devel pcre-devel ncpfs-devel postgresql-devel libssh-d
 yum install -y hydra nmap 
 
 #执行
+
+mv hydra-master/ 2/
+mv 2/ /root/
+
 ./nmap.sh
 
 
