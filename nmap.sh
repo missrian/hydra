@@ -39,7 +39,7 @@ do
 
 echo $line
 
-hydra -l root  -P top100.txt  ${line} ssh >> seeResult.txt
+hydra -l root  -P top100.txt -t 2   ${line} ssh >> seeResult.txt
 #hydra -l root -P top100.txt ssh:${line}  >>  seeResult.txt
 echo -e “ ----------------------------next ip test-------------------------------\n\n-” >> seeResult.txt
 
